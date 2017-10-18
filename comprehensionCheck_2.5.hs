@@ -5,4 +5,4 @@
 3.14 * (4 * 4)
 -}
 
-shortPi x = 3.14 * x
+shortPi x = pi * x
