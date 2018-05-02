@@ -1,0 +1,11 @@
+-- exercises_5.3.hs
+-- 5.3 Chapter Exercises
+
+-- Exercises: Type Matching
+-- a) not = c) _ :: Bool -> Bool
+-- b) length = d) _ :: [a] -> Int
+-- According to my GHCI, length :: Foldable t => t a -> Int
+-- c) concat = b) _ :: [[a]] -> [a]
+-- According to my GHCI: concat :: Foldable t => t [a] -> [a]
+-- d) head = a) _ :: [a] -> a
+-- e) (<) = e) _ :: Ord a => a -> a -> Bool
