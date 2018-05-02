@@ -38,3 +38,16 @@ id x = x
 -}
 
 f (a, b) = a
+
+-- Match the function names to their types
+-- 1. Which of the following types is the type of show?
+-- a) show a => a -> String
+
+-- 2. Which of the following types is the type of (==)?
+-- b) Eq a => a -> a -> Bool
+
+-- 3. Which of the following types is the type of fst?
+-- a) (a, b) -> a
+
+-- 4. Which of the following types is the type of (+)?
+-- d) (+) :: Num a => a -> a -> a
